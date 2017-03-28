@@ -1,0 +1,122 @@
+body{
+    background-color: #0591ba;
+}
+.header-navigation #left-header{
+    float: left;
+    background-image: url(../img/tabdata01.gif);
+    background-repeat: no-repeat;
+}
+.header-navigation #right-header{
+    float: left;
+    background-image: url(../img/tabdata03.gif);
+    background-repeat: no-repeat;
+
+}
+.header-navigation #center-header{
+    float: left;
+    background-image: url(../img/tabdata02bg.gif);
+    background-repeat: repeat-x;    
+}
+
+#navigation-search{
+    margin: 10px 5px 5px 15px;
+    background-image: url(../img/bg.png);
+    background-repeat: repeat;
+}
+
+.menu-content{
+    margin: 10px 5px 5px 15px;
+    background-image: url(../img/bg.png);
+    background-repeat: repeat;
+}
+
+.menu-content thead{
+    background-color: black;
+    color: white;
+}
+
+.menu-content tbody{
+    background-color: white;
+    color: black;
+}
+
+.menu-content tbody tr:hover{
+    background-color: #0591ba;
+    color: #ffffff;
+}
+
+.nav-container{    
+    width: auto;
+    height: 50px;
+}
+
+.nav-container #nav li{
+    float: left;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+
+.nav-container #nav li a{
+    text-decoration: none;
+    text-decoration-line: none;
+    transition: ease-in-out 0.5s;  
+    font-size: 18px;
+    color: white;
+}
+
+.nav-container #nav li a:hover{
+    font-style: italic;
+    font-size: 24px;
+    color: red;
+
+}
+
+.content{
+    background-color: #0d7796;
+    border: 1px #ffffff solid;
+    border-radius: 10px;
+    animation-duration: 1.5s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+    margin: 20px 15px 15px 15px;
+    padding: 10px 5px 5px 5px;
+}
+
+@keyframes slidein {
+    from {
+        margin-top: 100%;
+        width: 300%; 
+    }
+
+    to {
+        margin-top: 0%;
+        width: 100%;
+    }
+}
+
+#container_home{
+    color: white;
+}
+
+#container_home img{
+    float: left;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+#number-home{
+    margin-left: 15px;
+    padding-left: 15px;
+}
+
+#container_home .title{
+    text-align: center;
+    font-weight: bold;
+}
+
+#navigasi{
+    background-color:#2530e3
+}

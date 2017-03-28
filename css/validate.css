@@ -1,0 +1,31 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 19, 2014, 7:28:34 PM
+    Author     : unikom
+*/
+
+input.error, textarea.error, select.error{
+    background: #FBE3E4;
+}
+
+label.error{
+    margin: 0px 0px 0px 10px;
+    display: inline;
+    color: #FF0000;
+    font-style: italic;
+}
+
+input.valid, textarea.valid, select.valid{
+    background: #FFFFFF;
+}
+
+label.valid{
+    margin: 0px 0px 0px 10px;
+    display: inline;
+    color: #11a211;
+    font-style: italic;
+}
